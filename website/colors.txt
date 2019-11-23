@@ -1,0 +1,12 @@
+#24314A Dark Purple
+#525078 Blue Grey
+#CF4FAA Hot Pink
+#D97C90 Orange
+#E27EC9 Pale Pink
+#7EE2C7 Sharp Green
+#F5D2CF Sand
+#BAF2C7 Soft Green
+#FFFFFF White
+
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Montserrat', sans-serif;
