@@ -8,7 +8,8 @@ align-items: top;
 justify-content: space-around;
 margin: 2em;
 padding: 1em;
-border: 10px dotted #CF4FAA;
+border-radius:50px;
+border:3px solid #24314A;
 background-color:white;
 /*border-top-right-radius: 100px;*/
 
@@ -21,17 +22,15 @@ align-items: top;
 justify-content: space-around;
 margin: 2em;
 padding: 1em;
-border: 10px dotted #CF4FAA;
+border-radius:50px;
+border:3px solid #24314A;
 background-color:white;
 /*border-top-right-radius: 100px;*/
-
 }
 
-}
 main > * {
 margin: 0.3em;
 }
-
 
 main ul {
 	list-style: none;
@@ -42,7 +41,6 @@ main ul {
 	flex-direction: row;
 	align-items:center;
 	justify-content:space-evenly;
-
 }
 
 main nav li {
@@ -232,7 +230,7 @@ blockquote:hover{
 }
 
 div.thumbs {
-
+width:50vw;
 	display: flex;
 	flex-direction:row;
 	flex-flow:wrap;
@@ -260,14 +258,16 @@ div.thumbs figure:hover{
 div.thumbs img:hover{
 	border-radius:100px;
 }
-
+div.promo {
+	width:30vw;
+}
 div.promo ul{
 	list-style: none;
-
+width:30vw;
 	margin: 0 auto;
 	padding-left: 0;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items:center;
 	justify-content:space-evenly;
 }
@@ -275,12 +275,12 @@ div.promo ul{
 div.promo li{
 	font-size: 1em;
 	font-weight: bold;
-font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Gloria Hallelujah';
 background-color:#F5D2CF;
 color:#D97C90;
 text-align:center;
 margin: .1em;
-width:40vw;
+width:25vw;
 border-radius:100px;
 }
 
@@ -293,4 +293,77 @@ color:#D97C90;
 div.promo a:hover {
 	background-color:#D97C90;
 	color:#F5D2CF;
+}
+
+div.about {
+  display:flex;
+  flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+div.bio{
+  display:flex;
+  flex-direction:row-reverse;
+}
+article{
+text-align:justify;
+padding:1em;
+  }
+	div.portrait {
+		display:flex;
+		flex-direction: column;
+		align-items:center;
+	}
+
+  div.portrait figure{
+    width:20vw;
+    margin: 1em;
+    padding:0;
+
+  }
+
+  img.portrait{
+    width:20vw;
+
+    border-radius:100px;
+    border:3px solid #24314A;
+
+  }
+
+
+aside{
+  text-align:center;
+  background-color:white;
+  width:30em;
+  border-radius:100px;
+
+}
+
+@media screen and (max-width: 992px) {
+
+	main {
+		display: block;
+		flex-direction: column;
+		align-content: space-evenly;
+		align-items:center;
+	}
+	img.portrait {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.portrait figure {
+		width: auto;
+    text-align: center;
+    margin: 1em;
+    padding: 0;
+	}
+
+div.promo{
+	width:auto;
+}
+
+
 }

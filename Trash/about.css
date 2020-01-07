@@ -1,0 +1,64 @@
+/*CSS for about.html*/
+
+div.about {
+  display:flex;
+  flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+div.bio{
+  display:flex;
+  flex-direction:row-reverse;
+}
+article{
+text-align:justify;
+padding:1em;
+  }
+
+  div.portrait figure{
+    width:25vw;
+    margin: 1em;
+    padding:0;
+
+  }
+
+  img.portrait{
+    width:25vw;
+    border-radius:100px;
+    border:3px solid #24314A;
+
+  }
+
+
+aside{
+  text-align:center;
+  background-color:white;
+  width:30em;
+  border-radius:100px;
+
+}
+
+@media screen and (max-width: 992px) {
+
+	main {
+		display: block;
+		flex-direction: column;
+		align-content: space-evenly;
+		align-items:center;
+	}
+	img.portrait {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.portrait figure {
+		width: auto;
+    text-align: center;
+    margin: 1em;
+    padding: 0;
+	}
+
+
+}

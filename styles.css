@@ -14,7 +14,7 @@ header {
 	width: 100%;
 	height:300px;
 	min-height:10em;
-	background-color: #D97C90;
+	background-color: #CF4FAA;
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-between;
@@ -22,6 +22,8 @@ header {
 	justify-content: flex-end;
   padding-top: 6em;
   background-image: url(images/banner.png);
+	 background-repeat: no-repeat;
+	 background-position:center;
   border-bottom: 3px solid #24314A;
 
 }
@@ -120,4 +122,5 @@ footer {
 	border-bottom-right-radius: 100px;
 	padding: 1em;
   text-align: center;
+	background-color:#dcefe0;
 }

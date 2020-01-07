@@ -6,6 +6,7 @@
 #7EE2C7 Sharp Green
 #F5D2CF Sand
 #BAF2C7 Soft Green
+#dcefe0 Pale Green
 #FFFFFF White
 
 font-family: 'Gloria Hallelujah', cursive;
