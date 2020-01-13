@@ -109,7 +109,7 @@ div.articles li a:hover {
 
 div.portfolio{
 	display:flex;
-	flex-direction:row-reverse;
+	flex-direction:row;
 	justify-content:space-evenly;
 	flex-wrap:wrap-reverse;
 }
@@ -162,7 +162,7 @@ div.minicomics figure{
 
 div.minicomics img{
 width:20vw;
-border-radius: 50px;
+border-radius: 25px;
 }
 
 
