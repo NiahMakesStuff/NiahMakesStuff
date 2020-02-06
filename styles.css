@@ -61,6 +61,20 @@ header ul {
 
 
 }
+footer ul {
+	list-style: none;
+	width:60vw;
+	margin: 0 auto;
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-evenly;
+  padding-top: 1em;
+	padding-bottom: 0.5em;
+
+
+}
 
 header nav li {
 	/*h2 presets*/
@@ -129,4 +143,4 @@ footer {
 	display: flex;
 	flex-direction: row;
 	align-items:center;
-}*/ 
+}*/
